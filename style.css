@@ -1,0 +1,80 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(52, 56, 56);
+}
+
+/* Header */
+
+header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu{
+    margin-top: 2%;
+}
+
+#page-name{
+    color: white;
+    background-color: rgb(42, 24, 59);
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* Graph Section */
+
+.array-container {
+    display: flex;
+    margin-bottom: 20px;
+    margin: 0 auto;
+}
+
+.graph{
+    display: flex;
+    margin: 0 auto;
+}
+
+.bar {
+    width: 20px;
+    margin-right: 4px;
+    background-color: darkgoldenrod;
+}
+
+/* Buttons Sections */
+
+.btn-section{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+button{
+    color: aqua;
+    background-color: rgb(92, 57, 57);
+    padding: 15px;
+    cursor: pointer;
+}
+button:hover{
+    color: brown;
+    background-color: yellowgreen;
+    transition: 0.2s ease-in;
+}
+
+/* Footer */
+
+footer{
+    width: 100%;
+    background-color: rgb(11, 66, 68);
+    position: fixed;
+    bottom: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+
+}
